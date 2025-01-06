@@ -12,13 +12,13 @@ html {
   display: flex;
   align-items: center;
   margin: auto;
+  padding: 133px 30px;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
   inline-size: 1200px;
   block-size: 100%;
-  padding: 133px 30px;
 }
 
 h1,
@@ -82,8 +82,8 @@ ol {
 
 /* details */
 .content__details {
-  grid-area: details;
   position: relative;
+  grid-area: details;
 }
 
 .title {
@@ -151,14 +151,14 @@ ol {
 }
 
 .content__video-card-title {
+  max-width: 195px;
   overflow: hidden;
   font-family: Oswald;
+  font-size: 30px;
+  line-height: 1.1;
   text-transform: uppercase;
   text-overflow: ellipsis;
   white-space: nowrap;
-  font-size: 30px;
-  line-height: 1.1;
-  max-width: 195px;
 }
 
 .content__video-card-description {
@@ -271,8 +271,7 @@ body.keyboard-focus .search-form__label:has(:focus-within) {
 
 /* buttons */
 .button {
-  border: none;
-  border: 1px solid #fff;
+  border: 1px solid currentcolor;
   padding: 6px 73.5px;
   color: #fff;
   font-family: 'Fira Sans Condensed';
