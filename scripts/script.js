@@ -306,3 +306,11 @@ function showMoreCards({
     }
   });
 }
+
+document.addEventListener('keydown', () => {
+  document.body.classList.add('keyboard-focus');
+});
+
+document.addEventListener('mousedown', () => {
+  document.body.classList.remove('keyboard-focus');
+});
