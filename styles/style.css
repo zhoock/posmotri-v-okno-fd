@@ -260,7 +260,7 @@ body.keyboard-focus .search-form__label:has(:focus-within) {
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
   content: '';
-  position: absolute;
+  position: relative;
   top: 1px;
   left: 1px;
   width: 15px;
