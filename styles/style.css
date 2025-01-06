@@ -246,7 +246,6 @@ body.keyboard-focus .search-form__label:has(:focus-within) {
 }
 
 .search-form__pseudo-checkbox {
-  position: relative;
   display: inline-block;
   width: 19px;
   height: 19px;
@@ -266,6 +265,7 @@ body.keyboard-focus .search-form__label:has(:focus-within) {
   width: 15px;
   height: 15px;
   background-color: #fff;
+  display: block;
 }
 /* end checkbox */
 
